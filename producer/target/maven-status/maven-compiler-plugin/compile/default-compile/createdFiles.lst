@@ -1,0 +1,9 @@
+com/raphaelcollin/Main.class
+com/raphaelcollin/kafka/user.class
+com/raphaelcollin/kafka/user$Callback.class
+com/raphaelcollin/model/User$UserBuilder.class
+com/raphaelcollin/EventGenerator.class
+com/raphaelcollin/kafka/User.class
+com/raphaelcollin/kafka/User$Builder.class
+com/raphaelcollin/model/User.class
+com/raphaelcollin/model/Event.class

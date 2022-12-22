@@ -8,10 +8,11 @@ public class EventGenerator {
     public Event newRandomEvent() {
         Faker faker = new Faker();
         return new Event(
-                new User(faker.number().numberBetween(1, 100),
-                        faker.name().name(),
-                        faker.internet().emailAddress()
-                )
+                User.builder()
+                        .id(faker.number().numberBetween(1, 100))
+                        .name(faker.name().name())
+                        .email(faker.internet().emailAddress())
+                        .build()
         );
     }
 }
